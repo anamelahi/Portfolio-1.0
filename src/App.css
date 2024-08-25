@@ -88,7 +88,7 @@ a{
   }
   
   .main{
-    padding: 5vh 4vh;
+    padding: 3vh 4vh;
   }
   
   .hero{
@@ -110,7 +110,7 @@ a{
   
   .skill-name{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
   }
   

@@ -29,4 +29,8 @@
     .left-head h3{
         font-size: 2vh;
     }
+
+    .info-left img{
+        height: 5vh;
+    }
 }
