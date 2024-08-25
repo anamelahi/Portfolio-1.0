@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="main">
       <div className="hero">
-        <h1>Hi, This is Anam 👋</h1>
+        <h1>Hi, This is Anam Elahi 👋</h1>
         <p>Pursuing Btech Computer Science and a Frontend Developer. I love Cats, Coffee and Broccoli. <br /> Here's my <a href={resume} target="_blank">Resume</a>
         </p>
       </div>
