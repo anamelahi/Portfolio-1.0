@@ -1,0 +1,23 @@
+.skills-section{
+    margin-top: 3vh;
+    border: 2px solid #B32131;
+    background-color: #B32131;
+    color: #EFD8C5;
+    width: fit-content;
+    padding: 0.7vh 2vh 0.7vh 2vh;
+    border-radius: 5px;
+    font-size: 2vh;
+}
+
+@media (max-width:600px) {
+    .skills-section{
+        padding-top: 2vh;
+        border: 2px solid #B32131;
+        background-color: #B32131;
+        color: #EFD8C5;
+        width: fit-content;
+        padding: 0.3vh 1vh 0.3vh 1vh;
+        border-radius: 5px;
+        font-size: 2vh;
+    }
+}

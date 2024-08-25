@@ -1,0 +1,32 @@
+.section .info{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-left{
+    display: flex;
+    gap: 4vh;
+}
+
+.left-head p{
+    font-size: 0.9rem;
+}
+.deets{
+    text-align: left;
+}
+
+.info-left img{
+    height: 8vh;
+}
+
+.time{
+    text-align: right;
+}
+
+@media (max-width:600px) {
+    .left-head h3{
+        font-size: 2vh;
+    }
+}

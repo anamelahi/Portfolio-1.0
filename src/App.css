@@ -1,0 +1,140 @@
+
+body{
+  min-height: 100vh;
+  width: 100%;
+  font-family: Inter;
+}
+
+.main{
+  padding: 5vh 50vh;
+}
+
+.hero{
+  margin-top: 8vh;
+}
+
+.hero p{
+  margin-top: 2vh;
+  font-size: 3vh;
+}
+
+h1{
+  font-size: 3.5rem;
+  /* text-align: center; */
+}
+
+.about{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.about h2{
+  margin-bottom: 2vh;
+}
+
+.skills{
+  margin-top: 8vh;
+}
+
+.skill-name{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.project{
+  margin-top: 8vh;
+}
+.project h2{
+  margin-bottom: 2vh;
+}
+.pro{
+  display: flex;
+  /* gap: 2vh; */
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.work{
+  margin-top: 8vh;
+}
+
+.getintouch{
+  margin-top: 12vh;
+  padding-bottom: 12vh;
+  text-align: center
+
+}
+
+.getintouch h1{
+  text-align: center
+}
+.getintouch p{
+  font-size: 3vh;
+}
+
+a{
+  text-decoration: none;
+  color: darksalmon;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  body{
+    min-height: 100vh;
+    width: 100%;
+    font-family: Inter;
+  }
+  
+  .main{
+    padding: 5vh 9vh;
+  }
+  
+  .hero{
+    padding-top: 3vh;
+  }
+  
+  .hero p{
+    margin-top: 2vh;
+    font-size: 2.4vh;
+  }
+  
+  h1{
+    font-size: 3rem;
+  }
+  
+  .skills{
+    margin-top: 8vh;
+  }
+  
+  .skill-name{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .work{
+    margin-top: 8vh;
+  }
+  
+  .getintouch{
+    margin-top: 12vh;
+    padding-bottom: 12vh;
+    text-align: center
+  
+  }
+  
+  .getintouch h1{
+    text-align: center
+  }
+  .getintouch p{
+    font-size: 3vh;
+  }
+  
+  a{
+    text-decoration: none;
+    color: darksalmon;
+  }
+  
+}
