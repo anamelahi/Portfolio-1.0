@@ -6,6 +6,7 @@ import Projects from "./Components/Projects/Projects";
 import chatapp from "./assets/chatapp.png";
 import carrental from "./assets/Car-rental.png";
 import urlshort from "./assets/url-shortner.png";
+import coffeeshop from "./assets/coffee-shop.png"
 import resume from "../public/Resume.pdf"
 
 function App() {
@@ -69,6 +70,8 @@ function App() {
             heading="Chat App"
             duration="2024"
             content="The Chat App project aims to develop a modern and efficient chat application that enables users to communicate. The app will support one-on-one messaging functionalities, providing users with a seamless and interactive communication experience."
+            techname="Typescript"
+
           />
           <Projects
           link="https://github.com/anamelahi/Car-Rental"
@@ -76,6 +79,8 @@ function App() {
             heading="CarLo"
             duration="Present"
             content="Welcome to CarLo, your trusted partner for easy and reliable car rentals. At CarLo, we offer a diverse range of vehicles to meet all your travel needs, from compact cars to luxurious SUVs. "
+            techname="Javascript"
+
             
           />
           <Projects
@@ -84,7 +89,18 @@ function App() {
             heading="URL Shortner"
             duration="2023"
             content="Designed to streamline and simplify your online experience, our backend-based URL shortener transforms lengthy web addresses into concise, easy-to-share links."
+            techname="Javascript"
+
           />
+          <Projects
+          link="https://github.com/anamelahi/Coffee-listing"
+            image={coffeeshop}
+            heading="Coffee Listing"
+            duration="2024"
+            content="Designed to get the understanding of APIs and JSON files."
+            techname="Javascript"
+          />
+
         </div>
       </div>
 

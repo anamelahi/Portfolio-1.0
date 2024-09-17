@@ -15,7 +15,7 @@ const Projects = (props) => {
 
         <div className="techs">
         <TechStack tech="MERN" />
-        <TechStack tech="Typescript" />
+        <TechStack tech={props.techname} />
         </div>
         <button className='src-code' onClick={handleClick}>Source Code</button>
       
