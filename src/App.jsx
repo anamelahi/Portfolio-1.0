@@ -4,7 +4,8 @@ import Sections from "./Components/Sections";
 import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
 import chatapp from "./assets/chatapp.png";
-import carrental from "./assets/Car-rental.png";
+// import carrental from "./assets/Car-rental.png";
+import pinsplash from "./assets/pinsplash.png"
 import urlshort from "./assets/url-shortner.png";
 import coffeeshop from "./assets/coffee-shop.png"
 import resume from "../public/Resume.pdf"
@@ -64,6 +65,14 @@ function App() {
       <div className="project">
         <h2>Projects</h2>
         <div className="pro">
+        <Projects
+          link="https://github.com/anamelahi/pinsplash"
+            image={pinsplash}
+            heading="Pinsplash"
+            duration="Present"
+            content="Pinsplash is a clone of Unsplash. I took this project challenge from 'devchallenges' "
+            techname="Javascript"
+          />
           <Projects
           link="https://github.com/anamelahi/MinorProject"
             image={chatapp}
@@ -74,23 +83,12 @@ function App() {
 
           />
           <Projects
-          link="https://github.com/anamelahi/Car-Rental"
-            image={carrental}
-            heading="CarLo"
-            duration="Present"
-            content="Welcome to CarLo, your trusted partner for easy and reliable car rentals. At CarLo, we offer a diverse range of vehicles to meet all your travel needs, from compact cars to luxurious SUVs. "
-            techname="Javascript"
-
-            
-          />
-          <Projects
           link="https://github.com/anamelahi/url-shortner"
             image={urlshort}
             heading="URL Shortner"
             duration="2023"
             content="Designed to streamline and simplify your online experience, our backend-based URL shortener transforms lengthy web addresses into concise, easy-to-share links."
             techname="Javascript"
-
           />
           <Projects
           link="https://github.com/anamelahi/Coffee-listing"
