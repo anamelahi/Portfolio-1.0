@@ -79,7 +79,7 @@ function App() {
             heading="Chat App"
             duration="2024"
             content="The Chat App project aims to develop a modern and efficient chat application that enables users to communicate. The app will support one-on-one messaging functionalities, providing users with a seamless and interactive communication experience."
-            techname="Typescript"
+            techname="Javascript"
 
           />
           <Projects
@@ -90,26 +90,26 @@ function App() {
             content="Designed to streamline and simplify your online experience, our backend-based URL shortener transforms lengthy web addresses into concise, easy-to-share links."
             techname="Javascript"
           />
-          <Projects
+          {/* <Projects
           link="https://github.com/anamelahi/Coffee-listing"
             image={coffeeshop}
             heading="Coffee Listing"
             duration="2024"
             content="Designed to get the understanding of APIs and JSON files."
             techname="Javascript"
-          />
+          /> */}
 
         </div>
       </div>
 
       <div className="work">
         <h2>Work Experience</h2>
-        <Sections
+        {/* <Sections
           image="https://avatars.githubusercontent.com/u/174705058?s=200&v=4"
           heading="AD Technology"
           details="Freelance Web developer"
           timeline="Present"
-        />
+        /> */}
         <Sections
           image="https://quirkyfolksentertainment.com/assets/qf-4G8q1CSS.png"
           heading="Quirky Folks Entertainment"
@@ -128,7 +128,7 @@ function App() {
 
       <div className="getintouch">
         <h1>Get in Touch</h1>
-        <p>Let's do a project together? Just dm me on <a href="https://x.com/AnamElahi3">twitter</a> and I'll respond whenever I can. Or you can <a href="mailto:anamelahi04@gmail.com">mail me!</a></p>
+        <p>Let's do a project together? Just dm me on <a href="https://x.com/AnamElahi3">twitter</a> Or you can <a href="mailto:anamelahi04@gmail.com">mail me!</a></p>
       </div>
     </div>
   );

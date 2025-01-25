@@ -6,7 +6,7 @@ body{
 }
 
 .main{
-  padding: 5vh 50vh;
+  padding: 5vh 60vh;
 }
 
 .hero{
@@ -80,7 +80,7 @@ a{
 
 
 /* RESPONSIVE */
-@media (max-width: 600px) {
+@media (max-width: 1400px) {
   body{
     min-height: 100vh;
     width: 100%;
@@ -88,8 +88,11 @@ a{
   }
   
   .main{
-    padding: 3vh 4vh;
+    padding: 3vh 30vh;
   }
+  /* .main{
+    padding: 0vh 0vh;
+  } */
   
   .hero{
     padding-top: 3vh;
