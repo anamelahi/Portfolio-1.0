@@ -33,7 +33,7 @@ function App() {
         <Sections
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo6wCkhO2Ifja2HW5-5WueSorb0G66xlUkkw&s"
           heading="Jamia Hamdard"
-          details="Btech CSE, 7.62 cgpa"
+          details="Btech CSE, 7.76 cgpa"
           timeline="present"
         />
         <Sections
