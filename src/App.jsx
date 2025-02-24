@@ -23,8 +23,8 @@ function App() {
       <div className="about">
         <h2>About Me</h2>
         <p>
-          By the end of 2021, I was enrolled in my Undergrad degree. I also
-          write research paper sometimes. I've also got my paper "AI in Agriculture" published in The esteemed publication "Elsevier" in 2023.
+          By the end of 2021, I was enrolled in my Undergrad degree.I've participated in ideathons and hackathons and have enjoyed working in a team and pitched my ideas. Apart from development, I also
+          write research/review paper. I've also got my paper "AI in Agriculture" published in The esteemed publication "Elsevier" in 2023.
           Currently I have developed interest in Quantum Computing. <br />
           Currently I am working as a Freelancer.
         </p>
