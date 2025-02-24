@@ -8,6 +8,7 @@ import chatapp from "./assets/chatapp.png";
 import pinsplash from "./assets/pinsplash.png"
 import urlshort from "./assets/url-shortner.png";
 import coffeeshop from "./assets/coffee-shop.png"
+import collabSphere from "./assets/collabSphere.png"
 import resume from "../public/Resume.pdf"
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
         <h2>Skills</h2>
         <div className="skill-name">
           <Skills name="React" />
+          <Skills name="PostgreSQL" />
           <Skills name="Mongo DB" />
           <Skills name="Node js" />
           <Skills name="Express" />
@@ -65,6 +67,14 @@ function App() {
       <div className="project">
         <h2>Projects</h2>
         <div className="pro">
+        <Projects
+          link="https://github.com/anamelahi/CollabSphere"
+            image={collabSphere}
+            heading="CollabSphere"
+            duration="Present"
+            content="Pinsplash is a clone of Unsplash. I took this project challenge from 'devchallenges' "
+            techname="Javascript"
+          />
         <Projects
           link="https://github.com/anamelahi/pinsplash"
             image={pinsplash}
@@ -90,14 +100,6 @@ function App() {
             content="Designed to streamline and simplify your online experience, our backend-based URL shortener transforms lengthy web addresses into concise, easy-to-share links."
             techname="Javascript"
           />
-          {/* <Projects
-          link="https://github.com/anamelahi/Coffee-listing"
-            image={coffeeshop}
-            heading="Coffee Listing"
-            duration="2024"
-            content="Designed to get the understanding of APIs and JSON files."
-            techname="Javascript"
-          /> */}
 
         </div>
       </div>
