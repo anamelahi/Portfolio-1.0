@@ -24,7 +24,7 @@ function App() {
         <h2>About Me</h2>
         <p>
           By the end of 2021, I was enrolled in my Undergrad degree.I've participated in ideathons and hackathons and have enjoyed working in a team and pitched my ideas. Apart from development, I also
-          write research/review paper. I've also got my paper "AI in Agriculture" published in The esteemed publication "Elsevier" in 2023.
+          write research/review papers. I've also got my paper "AI in Agriculture" published in The esteemed publication "Elsevier" in 2023.
           Currently I have developed interest in Quantum Computing. <br />
           Currently I am working as a Freelancer.
         </p>
@@ -72,7 +72,7 @@ function App() {
             image={collabSphere}
             heading="CollabSphere"
             duration="Present"
-            content="Pinsplash is a clone of Unsplash. I took this project challenge from 'devchallenges' "
+            content="CollabSphere is a metaverse platform for remote teams, featuring avatars, real-time communication, and interactive virtual offices, allowing employees and managers to collaborate seamlessly in an immersive digital workspace. "
             techname="Javascript"
           />
         <Projects
