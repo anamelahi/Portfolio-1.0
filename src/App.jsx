@@ -9,7 +9,7 @@ import pinsplash from "./assets/pinsplash.png"
 import urlshort from "./assets/url-shortner.png";
 import coffeeshop from "./assets/coffee-shop.png"
 import collabSphere from "./assets/collabSphere.png"
-import resume from "../public/Resume.pdf"
+import resume from "/Anam Elahi Resume.pdf"
 
 function App() {
   return (

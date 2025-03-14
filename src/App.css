@@ -80,7 +80,7 @@ a{
 
 
 /* RESPONSIVE */
-@media (max-width: 1400px) {
+@media (max-width: 1300px) {
   body{
     min-height: 100vh;
     width: 100%;
