@@ -38,7 +38,9 @@ h1{
 
 .skill-name{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
 }
 
 
