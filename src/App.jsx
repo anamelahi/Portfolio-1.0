@@ -13,6 +13,7 @@ import hps_logo from "./assets/hps_logo.jpg"
 import nits_logo from "./assets/nits_logo.svg"
 import nmdfc_logo from "./assets/nmdfc_logo.png"
 import elsevier from "./assets/elsevier_logo.png"
+import lc_logo from "./assets/LeetCode_logo.png"
 import collabSphere from "./assets/collabSphere.png"
 import resume from "/Anam_Elahi_Resume.pdf"
 
@@ -21,7 +22,7 @@ function App() {
     <div className="main">
       <div className="hero">
         <h1>Hi, This is Anam Elahi 👋</h1>
-        <p>Pursuing M.Tech in AI. Qualified GATE CS and DA 2026<br /> Here's my <a href={resume} target="_blank">Resume</a>
+        <p>Pursuing M.Tech in AI. Qualified GATE CS and DA 2026<br /> Here's my <a href={resume} target="_blank">Resume</a> and my <a href="https://leetcode.com/u/anamelahi/">Leetcode</a> 
         </p>
       </div>
 
@@ -143,7 +144,7 @@ function App() {
 
       <div className="getintouch">
         <h1>Get in Touch</h1>
-        <p>Let's do a project together? Just dm me on <a href="https://x.com/AnamElahi3">X</a> Or you can <a href="mailto:anamelahi04@gmail.com">mail me!</a></p>
+        <p>Have an opportunity for me or wanna do a project together? Just dm me on <a href="https://x.com/AnamElahi3">X</a> Or you can <a href="mailto:anamelahi04@gmail.com">mail me!</a></p>
       </div>
     </div>
   );
