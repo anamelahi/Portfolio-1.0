@@ -8,43 +8,54 @@ import chatapp from "./assets/chatapp.png";
 import pinsplash from "./assets/pinsplash.png"
 import urlshort from "./assets/url-shortner.png";
 import coffeeshop from "./assets/coffee-shop.png"
+import jh_logo from "./assets/jh_logo.png"
+import hps_logo from "./assets/hps_logo.jpg"
+import nits_logo from "./assets/nits_logo.svg"
+import nmdfc_logo from "./assets/nmdfc_logo.png"
+import elsevier from "./assets/elsevier_logo.png"
 import collabSphere from "./assets/collabSphere.png"
-import resume from "/Anam Elahi Resume.pdf"
+import resume from "/Anam_Elahi_Resume.pdf"
 
 function App() {
   return (
     <div className="main">
       <div className="hero">
         <h1>Hi, This is Anam Elahi 👋</h1>
-        <p>Pursuing Btech Computer Science and a Frontend Developer. <br /> Here's my <a href={resume} target="_blank">Resume</a>
+        <p>Pursuing M.Tech in AI. Qualified GATE CS and DA 2026<br /> Here's my <a href={resume} target="_blank">Resume</a>
         </p>
       </div>
 
       <div className="about">
         <h2>About Me</h2>
         <p>
-          By the end of 2021, I was enrolled in my Undergrad degree.I've participated in ideathons and hackathons and have enjoyed working in a team and pitched my ideas. Apart from development, I also
+          By the end of 2021, I was enrolled in my Undergrad degree.I've participated in ideathons and hackathons and have enjoyed working in a team and pitched my ideas. Did 1 internship and freelance during my Bachelor's. Apart from development, I also
           write research/review papers. I've also got my paper "AI in Agriculture" published in The esteemed publication "Elsevier" in 2023.
           Currently I have developed interest in Quantum Computing. <br />
-          Currently I am working as a Freelancer.
+          Currently I am looking for SDE opportunities.
         </p>
       </div>
       <div className="education">
         <h2 className="sectionhead"> Education </h2>
         <Sections
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo6wCkhO2Ifja2HW5-5WueSorb0G66xlUkkw&s"
-          heading="Jamia Hamdard"
-          details="Btech CSE, 7.76 cgpa"
+          image={nits_logo}
+          heading="NIT Silchar"
+          details="Mtech AI"
           timeline="present"
         />
         <Sections
-          image="https://delhischoolsdirectory.com/assets/upload/profileimg/PRFIMGUSR25661668755814.png"
+          image={jh_logo}
+          heading="Jamia Hamdard"
+          details="Btech CSE, 7.97 cgpa"
+          timeline="2021-2025"
+        />
+        <Sections
+          image={hps_logo}
           heading="Hamdard Public School"
           details="Class 12th, 90.8%"
           timeline="2020-2021"
         />
         <Sections
-          image="https://delhischoolsdirectory.com/assets/upload/profileimg/PRFIMGUSR25661668755814.png"
+          image={hps_logo}
           heading="Hamdard Public School"
           details="Class 10th, 93.6%"
           timeline="2018-2019"
@@ -54,6 +65,8 @@ function App() {
       <div className="skills">
         <h2>Skills</h2>
         <div className="skill-name">
+          <Skills name="Python" />
+          <Skills name="Data Structures" />
           <Skills name="React" />
           <Skills name="PostgreSQL" />
           <Skills name="Mongo DB" />
@@ -106,12 +119,12 @@ function App() {
 
       <div className="work">
         <h2>Work Experience</h2>
-        {/* <Sections
-          image="https://avatars.githubusercontent.com/u/174705058?s=200&v=4"
-          heading="AD Technology"
-          details="Freelance Web developer"
-          timeline="Present"
-        /> */}
+        <Sections
+          image={nmdfc_logo}
+          heading="NMDFC- Ministry of Minority Affairs"
+          details="Frontend Developer"
+          timeline="March 2025 - August 2025"
+        />
         <Sections
           image="https://quirkyfolksentertainment.com/assets/qf-4G8q1CSS.png"
           heading="Quirky Folks Entertainment"
@@ -119,7 +132,7 @@ function App() {
           timeline="July 2024- August 2024"
         />
         <Sections
-          image="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Elsevier.svg/602px-Elsevier.svg.png"
+          image={elsevier}
           heading="Artificial Intelligence in Agriculture"
           details="Research Paper, Elsevier SSRN"
           timeline="2022 - Feb 2023"
@@ -130,7 +143,7 @@ function App() {
 
       <div className="getintouch">
         <h1>Get in Touch</h1>
-        <p>Let's do a project together? Just dm me on <a href="https://x.com/AnamElahi3">twitter</a> Or you can <a href="mailto:anamelahi04@gmail.com">mail me!</a></p>
+        <p>Let's do a project together? Just dm me on <a href="https://x.com/AnamElahi3">X</a> Or you can <a href="mailto:anamelahi04@gmail.com">mail me!</a></p>
       </div>
     </div>
   );
